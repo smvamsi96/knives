@@ -1,12 +1,7 @@
-i = 0
+h = 0
 
-file_path = "/home/smv/nums.txt"
+target = 100000
 
-target = 100
-
-with open(file_path, 'w') as the_file:
-    while i < target:
-        the_file.write(str(i))
-        the_file.write('\n')
-        i += 1
-
+while h >= 0:
+    unsorted_array.append(i)
+    i -= 1

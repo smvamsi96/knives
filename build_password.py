@@ -20,7 +20,7 @@ while True:
         i = 0
     else:
         i += 1
-    if (len(partial_password) < 2 AND i == len(letters)-1):
+    if (len(partial_password) < 2 and i == len(letters)-1):
         print("Password Not Found")
     elif(i == len(letters)-1):
         print(f" Your Password is: {partial_password[:len(letters)-2]}")
